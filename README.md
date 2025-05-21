@@ -1,6 +1,6 @@
 # GPT-Visualizer
 
-A Python-based visualization tool for GPT models and their outputs.
+A React-based visualization tool for GPT models and their outputs. This project helps visualize and analyze the interactions and responses from GPT models in an intuitive way.
 
 ## Previews
 ### Initial Views
@@ -14,15 +14,15 @@ A Python-based visualization tool for GPT models and their outputs.
 
 ## Features
 
-- Visualize GPT model outputs
-- Interactive interface
-- Customizable visualization options
+- Visualize GPT model outputs and interactions with history overview
+- Interactive interface for exploring model responses
+
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/gpt-visualizer.git
+git clone https://github.com/rohanongithub/gpt-visualizer.git
 cd gpt-visualizer
 ```
 
@@ -39,12 +39,25 @@ pip install -r requirements.txt
 
 ## Usage
 
-[Add usage instructions here]
+1. Start the application:
+```bash
+python src/main.py
+```
+
+2. Open your web browser and navigate to `http://localhost:8000`
+
+3. Input your GPT model data or connect to your API
+
+4. Use the visualization tools to analyze the outputs
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- Rohan ([@rohanongithub](https://github.com/rohanongithub))
