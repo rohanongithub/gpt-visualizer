@@ -4,6 +4,7 @@ import { OrbitControls, Text, Instances, Instance } from '@react-three/drei';
 import * as THREE from 'three';
 import { forceSimulation, forceLink, forceManyBody, forceCenter, forceCollide, forceX, forceY, forceZ, forceRadial } from 'd3-force-3d';
 
+
 function Node({ position, id, topic, summary, onClick, index, onHover, onUnhover }) {
   const meshRef = useRef();
   
